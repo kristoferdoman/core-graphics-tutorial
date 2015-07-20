@@ -20,12 +20,14 @@ class ViewController: UIViewController {
     // label outlets
     @IBOutlet weak var averageWaterDrunk: UILabel!
     @IBOutlet weak var maxLabel: UILabel!
+    @IBOutlet weak var medalView: MedalView!
     
     var isGraphViewShowing = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
         counterLabel.text = String(counterView.counter)
+        checkTotal()
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,6 +48,8 @@ class ViewController: UIViewController {
         if isGraphViewShowing {
             counterViewTap(nil)
         }
+        
+        checkTotal()
     }
     
     @IBAction func counterViewTap(gesture:UITapGestureRecognizer?) {
@@ -117,6 +121,14 @@ class ViewController: UIViewController {
                     weekday = days.count - 1
                 }
             }
+        }
+    }
+    
+    func checkTotal() {
+        if counterView.counter >= 8 {
+            medalView.showMedal(true)
+        } else {
+            medalView.showMedal(false)
         }
     }
 }

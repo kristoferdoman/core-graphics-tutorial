@@ -22,6 +22,9 @@
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6W-za-QY9" customClass="CounterView" customModule="Flo" customModuleProvider="target">
                                         <rect key="frame" x="35" y="35" width="230" height="230"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y24-hN-XcX" customClass="MedalView" customModule="Flo" customModuleProvider="target">
+                                                <rect key="frame" x="76" y="147" width="80" height="80"/>
+                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rn-CB-asy">
                                                 <rect key="frame" x="93" y="93" width="44" height="44"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
@@ -184,6 +187,17 @@
                             <constraint firstAttribute="centerX" secondItem="aLu-Q3-Cvd" secondAttribute="centerX" id="F5c-FN-kxB"/>
                             <constraint firstAttribute="centerY" secondItem="vGm-bX-JvG" secondAttribute="centerY" constant="100" id="jqg-nw-vsm"/>
                         </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="lightColor">
+                                <color key="value" red="1" green="1" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="darkColor">
+                                <color key="value" red="0.87450980392156863" green="1" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="patternSize">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                     <connections>
                         <outlet property="averageWaterDrunk" destination="0uT-sU-N0X" id="BBr-2Y-p15"/>
@@ -192,6 +206,7 @@
                         <outlet property="counterView" destination="f6W-za-QY9" id="aLE-he-WtH"/>
                         <outlet property="graphView" destination="AbH-yv-le2" id="INf-2z-33Q"/>
                         <outlet property="maxLabel" destination="GN1-pu-nTi" id="Xho-xP-f4Z"/>
+                        <outlet property="medalView" destination="Y24-hN-XcX" id="V8m-14-zJw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

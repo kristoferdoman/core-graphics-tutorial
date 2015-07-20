@@ -16,6 +16,8 @@
 		18DF39351B5D605C00BEE845 /* PushButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF39341B5D605C00BEE845 /* PushButtonView.swift */; };
 		18DF39371B5D6A3200BEE845 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF39361B5D6A3200BEE845 /* CounterView.swift */; };
 		18DF39391B5D7D6400BEE845 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF39381B5D7D6400BEE845 /* GraphView.swift */; };
+		18DF393B1B5D91C700BEE845 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF393A1B5D91C700BEE845 /* BackgroundView.swift */; };
+		18DF393E1B5D96F700BEE845 /* MedalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DF393D1B5D96F700BEE845 /* MedalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		18DF39341B5D605C00BEE845 /* PushButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushButtonView.swift; sourceTree = "<group>"; };
 		18DF39361B5D6A3200BEE845 /* CounterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		18DF39381B5D7D6400BEE845 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		18DF393A1B5D91C700BEE845 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		18DF393C1B5D943100BEE845 /* Medal-Drawing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Medal-Drawing.playground"; sourceTree = "<group>"; };
+		18DF393D1B5D96F700BEE845 /* MedalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +97,9 @@
 				18DF39341B5D605C00BEE845 /* PushButtonView.swift */,
 				18DF39361B5D6A3200BEE845 /* CounterView.swift */,
 				18DF39381B5D7D6400BEE845 /* GraphView.swift */,
+				18DF393A1B5D91C700BEE845 /* BackgroundView.swift */,
+				18DF393C1B5D943100BEE845 /* Medal-Drawing.playground */,
+				18DF393D1B5D96F700BEE845 /* MedalView.swift */,
 			);
 			path = Flo;
 			sourceTree = "<group>";
@@ -221,7 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DF393B1B5D91C700BEE845 /* BackgroundView.swift in Sources */,
 				18DF39391B5D7D6400BEE845 /* GraphView.swift in Sources */,
+				18DF393E1B5D96F700BEE845 /* MedalView.swift in Sources */,
 				18DF39171B5D47F900BEE845 /* ViewController.swift in Sources */,
 				18DF39351B5D605C00BEE845 /* PushButtonView.swift in Sources */,
 				18DF39151B5D47F900BEE845 /* AppDelegate.swift in Sources */,
